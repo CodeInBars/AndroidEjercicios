@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/nombrePlayer"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="80dp"
+            android:paddingLeft="15dp"
+            android:textColor="#000000"
+            android:textIsSelectable="false"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/scorePlayer"
+            android:layout_width="161dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nombrePlayer"
+            android:layout_marginTop="7dp"
+            android:paddingLeft="15dp"
+            android:textColor="#318287"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dificultad"
+            android:layout_width="271dp"
+            android:layout_height="62dp"
+            android:layout_marginStart="-29dp"
+            android:layout_marginLeft="-29dp"
+            android:layout_toEndOf="@+id/nombrePlayer"
+            android:layout_toRightOf="@+id/nombrePlayer"
+            android:paddingTop="20dp"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</LinearLayout>

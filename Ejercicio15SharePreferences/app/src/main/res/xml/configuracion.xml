@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Datos de Usuario">
+
+        <EditTextPreference
+            android:defaultValue="Nombre de usuario"
+            android:key="edit_text_preference_1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="nombre" />
+        <EditTextPreference
+            android:key="contrasena"
+            android:password="true"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Contraseña" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Apariencia">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="TemaColor"
+            android:title="DarkMode" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Funcionamiento">
+
+        <Preference android:title="Acerca de..">
+
+            <intent android:action="android.intent.action.VIEW" android:data="https://www.google.es" />
+        </Preference>
+
+        <Preference android:title="Anterior">
+
+
+        </Preference>
+        <PreferenceScreen android:title="Funcionamiento">
+
+            <ListPreference
+                android:defaultValue="1"
+                android:entries="@array/idiomas"
+                android:entryValues="@array/idiomas"
+                android:key="list_preference_1"
+                android:title="List preference" />
+            <SwitchPreference
+                android:defaultValue="false"
+                android:key="switch_preference_1"
+                android:title="Switch preference" />
+        </PreferenceScreen>
+
+    </PreferenceCategory>
+</PreferenceScreen>

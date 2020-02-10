@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Ejercicio7</string>
+    <array name="titulos">
+        <item>Aim</item>
+        <item>Ask</item>
+        <item>Bebo</item>
+        <item>Betvives</item>
+        <item>Blinklist</item>
+    </array>
+
+    <array name="subtitulos">
+        <item>Subtitulos de Aim</item>
+        <item>Subtitulos de Ask</item>
+        <item>Subtitulos de Bebo</item>
+        <item>Subtitulos de Betvives</item>
+        <item>Subtitulos de Blinklist</item>
+    </array>
+</resources>

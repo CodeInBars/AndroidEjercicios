@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Ejercicio9(Reutilizacion CustomAdapter)</string>
+    <array name="nombres">
+
+        <item>Geminis</item>
+        <item>El Jocker</item>
+        <item>Termineitor</item>
+
+    </array>
+    <array name="subtitulos">
+        <item>Dos negros iguales</item>
+        <item>Un loco psicopata</item>
+        <item>Metal andante</item>
+    </array>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dificultad">
+        <item name="Facil">Facil</item>
+        <item name="Media">Media</item>
+        <item name="Dificil" >Dificil</item>
+        <item name="Extrema">Extrema</item>
+    </string-array>
+
+    <string-array name="values">
+
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+</resources>
